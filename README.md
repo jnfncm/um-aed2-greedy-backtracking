@@ -102,7 +102,7 @@ _En `Memoria.pdf`, ya que Markdown de GitHub no admite LaTeX._
 
 ### 2. Backtracking
 
-## 2.1. Pseudocódigo y diseño
+#### 2.1. Pseudocódigo y diseño
 
 Hemos decidido que la representación de la solución debe ser una tupla (x1, x2, ..., xno) tal que xi ∈ {0} ∪ {1, ..., nm}, es decir, que indique, para cada objeto, si no se ha metido en ninguna mochila o en qué mochila se ha metido, en su caso. Habiendo tomado esta decisión, utilizaremos para el algoritmo un árbol k-ario, en este caso (nm + 1)-ario, donde cada nivel representará un objeto y cada nodo no hoja tendrá (nm + 1) hijos.
 
